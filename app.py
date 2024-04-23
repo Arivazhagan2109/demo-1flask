@@ -6,9 +6,9 @@ app=Flask(__name__)
 @app.route('/')#default api view function
 def home():
     return "this home"
-@app.route('/s2s/api/signup')
+@app.route('/s2s/api/login')
 def user_signup():
-    return"this is user signup page"
+    return"this is user login page"
 
 
 
